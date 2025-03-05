@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Razorpay Demo</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <button id="rzp-button1">Pay</button>
@@ -16,7 +17,7 @@ var options = {
     "name": "Acme Corp", //your business name
     "description": "Test Transaction",
     "image": "https://example.com/your_logo",
-    "order_id": "order_Q2e41DLd5EaLSv", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "order_id": "order_Q35Ts9oJ7M8Iwh", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "handler": function (response){
         alert(response.razorpay_payment_id);
         alert(response.razorpay_order_id);
